@@ -8,6 +8,7 @@
     width: 1000px;
 }
 
+
 body{
     padding-top: 70px;
 }
@@ -68,5 +69,27 @@ nav{
 
 .discount{
     text-decoration: line-through;
+}
+
+.bottombar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color:#1a1a1a;
+    height: 70px;
+}
+
+#srl{
+    color: white;
+}
+
+#srl a{
+    color: white;
+    text-decoration: none;
+}
+
+#social{
+    color: white;
 }
 
