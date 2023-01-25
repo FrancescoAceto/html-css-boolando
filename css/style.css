@@ -18,6 +18,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 .inner{
@@ -62,6 +63,15 @@ nav{
     padding: 2%;
 }
 
+.card{
+    display: inline-block;
+    position: relative;
+}
+
+.card img{
+    
+}
+
 
 .price{
     color: red;
@@ -93,3 +103,14 @@ nav{
     color: white;
 }
 
+.hover-img{
+    display: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card:hover .hover-img{
+    display: inline-block;    
+}
